@@ -1,0 +1,126 @@
+{
+    "profile": {
+        "name": "Nicolas Girardot",
+        "role": "Développeur Back-end & Architecte Logiciel",
+        "tagline": "Concevoir des architectures robustes et sécurisées pour le monde de demain.",
+        "sub_tagline": "Étudiant en BUT Informatique (Parcours DACS) - Spécialisé en Java, Sécurité et Architecture.",
+        "availability": {
+            "status": "À la recherche d'un stage de 10 semaines",
+            "start_date": "Avril 2026",
+            "duration": "10 semaines",
+            "location": "France / Télétravail"
+        },
+        "languages": [
+            {
+                "language": "Français",
+                "level": "Natif"
+            },
+            {
+                "language": "Anglais",
+                "level": "C1 - Avancé (Capacité professionnelle complète)"
+            }
+        ]
+    },
+    "projects": [
+        {
+            "id": "p2p-auction",
+            "title": "Système d'Enchères P2P Sécurisé",
+            "description": "Application d'enchères distribuée sans serveur central. Architecture pair-à-pair résiliente avec gestion avancée de la concurrence et de la sécurité des transactions.",
+            "tech_stack": [
+                "Java",
+                "Socket Programming",
+                "Cryptography",
+                "Multithreading"
+            ],
+            "highlight": "Architecture Distribuée & Sécurité",
+            "icon": "Server",
+            "link": "https://github.com/NicolasGirardot/p2p-auction"
+        },
+        {
+            "id": "secure-ecommerce",
+            "title": "Plateforme E-commerce Blindée",
+            "description": "Backend e-commerce complet avec focus sur l'intégrité des données et la sécurité. Gestion complexe de base de données et processus de vérification utilisateur rigoureux.",
+            "tech_stack": [
+                "PHP",
+                "PostgreSQL",
+                "Security Best Practices",
+                "Email Verification"
+            ],
+            "highlight": "Backend & Gestion de Données",
+            "icon": "Database",
+            "link": "https://github.com/NicolasGirardot/secure-ecommerce"
+        },
+        {
+            "id": "minecraft-modding",
+            "title": "Modding Minecraft Avancé",
+            "description": "Développement de mods complexes modifiant les mécaniques de jeu. Exploration approfondie de l'API Forge/Fabric et optimisation des performances.",
+            "tech_stack": [
+                "Java",
+                "Forge/Fabric API",
+                "OpenGL",
+                "Game Logic"
+            ],
+            "highlight": "Ingénierie Créative & Écosystème Java",
+            "icon": "Box",
+            "link": "https://github.com/NicolasGirardot/minecraft-mods"
+        }
+    ],
+    "skills": [
+        {
+            "title": "Back-end & Architecture",
+            "icon": "Server",
+            "items": [
+                "Java (Avancé, POO)",
+                "C (Système)",
+                "SQL / PL-SQL",
+                "Python",
+                "Architecture Logicielle"
+            ]
+        },
+        {
+            "title": "Outils & DevOps",
+            "icon": "Wrench",
+            "items": [
+                "Git / GitHub",
+                "Linux / Bash",
+                "Docker",
+                "VS Code / IntelliJ"
+            ]
+        },
+        {
+            "title": "Web & Front-end",
+            "icon": "Globe",
+            "items": [
+                "HTML5 / CSS3",
+                "PHP",
+                "Javascript (Intermédiaire)"
+            ]
+        },
+        {
+            "title": "Transverse & Soft Skills",
+            "icon": "Users",
+            "items": [
+                "Méthodes Agiles (Scrum)",
+                "Anglais Technique (C1)",
+                "Communication",
+                "Résolution de problèmes"
+            ]
+        }
+    ],
+    "socials": {
+        "github": "https://github.com/NicolasGirardot",
+        "linkedin": "https://linkedin.com/in/nicolas-girardot",
+        "email": "contact@nicolasgirardot.dev",
+        "cv": "/cv.pdf"
+    },
+    "ui_config": {
+        "theme": "dark",
+        "colors": {
+            "background": "#1a1a1a",
+            "text_primary": "#ffffff",
+            "text_secondary": "#cbd5e1",
+            "accent": "#3b82f6"
+        },
+        "style": "Engineering, Clean, Minimalist"
+    }
+}
