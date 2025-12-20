@@ -60,7 +60,7 @@ const Skills = () => {
                         <Cpu size={20} />
                         <span>Compétences</span>
                     </div>
-                    <h2 className="text-3xl md:text-5xl font-bold">Arsenal Technique</h2>
+
                 </motion.div>
 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
