@@ -1,6 +1,7 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { ArrowRight, Globe } from 'lucide-react';
+import { Link } from 'react-router-dom';
 import content from '../../content.json';
 
 const Hero = () => {
@@ -62,10 +63,13 @@ const Hero = () => {
                             <ArrowRight size={20} />
                         </a>
 
-                        <div className="flex items-center gap-4 px-8 py-4 border border-white/10 rounded-md bg-white/5">
+                        <Link
+                            to="/about"
+                            className="flex items-center gap-4 px-8 py-4 border border-white/10 rounded-md bg-white/5 hover:bg-white/10 transition-colors"
+                        >
                             <Globe size={20} className="text-gray-400" />
-                            <span className="text-base text-gray-300">English Fluent (C1)</span>
-                        </div>
+                            <span className="text-base text-gray-300">À propos de moi</span>
+                        </Link>
                     </motion.div>
                 </div>
             </div>

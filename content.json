@@ -21,11 +21,37 @@
             }
         ]
     },
+    "about": {
+        "biography": "Passionné par l'informatique depuis mon plus jeune âge, j'ai toujours été fasciné par la manière dont le code peut résoudre des problèmes complexes. Mon parcours m'a mené vers le développement backend et l'architecture logicielle, où je trouve un équilibre parfait entre rigueur technique et créativité.",
+        "interests": [
+            "Veille Technologique (Sécurité, Cloud)",
+            "Jeux Vidéo & Game Design",
+            "Musique (Guitare)",
+            "Contribution Open Source"
+        ],
+        "education": [
+            {
+                "degree": "BUT Informatique (Parcours DACS)",
+                "school": "IUT de [Votre Ville]",
+                "year": "2023 - 2026",
+                "description": "Développement d'Applications : Conception, Développement, Validation. Spécialisation en architecture logicielle et sécurisation des systèmes."
+            },
+            {
+                "degree": "Baccalauréat Général (Spécialités Maths / NSI)",
+                "school": "Lycée [Votre Lycée]",
+                "year": "2023",
+                "description": "Mention Bien. Projets en Python et découverte des algorithmes."
+            }
+        ],
+        "vision": "Après mon BUT, je souhaite poursuivre en École d'Ingénieur ou en Master spécialisé en Cybersécurité. Mon objectif à long terme est de devenir Architecte Logiciel ou Expert en Sécurité des Systèmes d'Information, contribuant à des projets critiques et innovants."
+    },
     "projects": [
         {
             "id": "p2p-auction",
             "title": "Système d'Enchères P2P Sécurisé",
             "description": "Application d'enchères distribuée sans serveur central. Architecture pair-à-pair résiliente avec gestion avancée de la concurrence et de la sécurité des transactions.",
+            "context": "Projet de fin de semestre (SAÉ) réalisé en équipe de 4. L'objectif était de concevoir un système résilient aux pannes serveurs.",
+            "learnings": "J'ai appris à gérer la concurrence en Java (Threads, Synchronisation), à implémenter des protocoles de communication réseau (Sockets TCP/UDP) et à sécuriser les échanges (Chiffrement RSA/AES).",
             "tech_stack": [
                 "Java",
                 "Socket Programming",
@@ -40,6 +66,8 @@
             "id": "secure-ecommerce",
             "title": "Plateforme E-commerce Blindée",
             "description": "Backend e-commerce complet avec focus sur l'intégrité des données et la sécurité. Gestion complexe de base de données et processus de vérification utilisateur rigoureux.",
+            "context": "Projet personnel pour approfondir mes connaissances en sécurité web et en bases de données relationnelles.",
+            "learnings": "Mise en pratique des principes OWASP pour contrer les injections SQL et XSS. Conception d'un schéma de base de données complexe et optimisé.",
             "tech_stack": [
                 "PHP",
                 "PostgreSQL",
@@ -54,6 +82,8 @@
             "id": "minecraft-modding",
             "title": "Modding Minecraft Avancé",
             "description": "Développement de mods complexes modifiant les mécaniques de jeu. Exploration approfondie de l'API Forge/Fabric et optimisation des performances.",
+            "context": "Participation à une Game Jam (Code Game Jam) sur 48h. Le thème était 'Transformation'.",
+            "learnings": "Travail sous pression temporelle, lecture de documentation technique complexe (API Forge), et optimisation du code pour maintenir un framerate élevé.",
             "tech_stack": [
                 "Java",
                 "Forge/Fabric API",
