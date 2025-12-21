@@ -22,24 +22,24 @@ const Navbar = () => {
             initial={{ y: -100, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.5 }}
-            className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-white/10"
+            className="fixed top-0 left-0 right-0 z-50 bg-background/95 border-b border-white/5"
         >
-            <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
-                <Link to="/" className="text-xl font-bold font-mono text-primary">
-                    Nicolas.dev
+            <div className="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+                <Link to="/" className="text-2xl font-bold font-sans tracking-tighter text-white">
+                    NICOLAS<span className="text-primary">.DEV</span>
                 </Link>
 
                 <div className="hidden md:flex items-center gap-8">
-                    <Link to="/about" className="text-sm text-gray-300 hover:text-white transition-colors">À Propos</Link>
+                    <Link to="/about" className="text-sm font-mono text-gray-400 hover:text-primary transition-colors uppercase tracking-wider">À Propos</Link>
 
                     {isHome ? (
                         <>
-                            <button onClick={() => scrollToSection('skills')} className="text-sm text-gray-300 hover:text-white transition-colors">Compétences</button>
-                            <button onClick={() => scrollToSection('projects')} className="text-sm text-gray-300 hover:text-white transition-colors">Projets</button>
-                            <button onClick={() => scrollToSection('contact')} className="text-sm text-gray-300 hover:text-white transition-colors">Contact</button>
+                            <button onClick={() => scrollToSection('skills')} className="text-sm font-mono text-gray-400 hover:text-primary transition-colors uppercase tracking-wider">Compétences</button>
+                            <button onClick={() => scrollToSection('projects')} className="text-sm font-mono text-gray-400 hover:text-primary transition-colors uppercase tracking-wider">Projets</button>
+                            <button onClick={() => scrollToSection('contact')} className="text-sm font-mono text-gray-400 hover:text-primary transition-colors uppercase tracking-wider">Contact</button>
                         </>
                     ) : (
-                        <Link to="/" className="text-sm text-gray-300 hover:text-white transition-colors">Accueil</Link>
+                        <Link to="/" className="text-sm font-mono text-gray-400 hover:text-primary transition-colors uppercase tracking-wider">Accueil</Link>
                     )}
 
                     <div className="h-4 w-px bg-white/10" />
@@ -55,9 +55,9 @@ const Navbar = () => {
 
                     <a
                         href={socials.cv}
-                        className="flex items-center gap-2 px-4 py-2 bg-white/5 hover:bg-white/10 border border-white/10 rounded-md text-sm font-medium transition-all group"
+                        className="flex items-center gap-2 px-4 py-2 bg-white text-black hover:bg-primary hover:text-white text-sm font-bold transition-all duration-300"
                     >
-                        <FileText size={16} className="text-primary group-hover:text-white transition-colors" />
+                        <FileText size={16} />
                         <span>CV</span>
                     </a>
                 </div>

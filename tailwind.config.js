@@ -7,14 +7,19 @@ export default {
     theme: {
         extend: {
             colors: {
-                background: '#1a1a1a', // Anthracite
-                surface: '#2d2d2d',
-                primary: '#3b82f6', // Blue code
-                secondary: '#cbd5e1', // Light gray
+                background: '#09090b', // Zinc 950
+                surface: '#18181b', // Zinc 900
+                surfaceHighlight: '#27272a', // Zinc 800
+                text: '#e4e4e7', // Zinc 200
+                textMuted: '#a1a1aa', // Zinc 400
+                primary: '#f97316', // Orange 500 (Industrial Accent)
+                secondary: '#52525b', // Zinc 600
+                border: '#27272a', // Zinc 800
             },
             fontFamily: {
-                mono: ['"Fira Code"', 'monospace'], // Codeur style
-                sans: ['Inter', 'sans-serif'],
+                mono: ['"Fira Code"', 'monospace'],
+                sans: ['"Space Grotesk"', 'sans-serif'],
+                body: ['Inter', 'sans-serif'],
             },
         },
     },
