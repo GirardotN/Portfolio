@@ -32,15 +32,15 @@
         "education": [
             {
                 "degree": "BUT Informatique (Parcours DACS)",
-                "school": "IUT de [Votre Ville]",
-                "year": "2023 - 2026",
+                "school": "IUT de Montpellier",
+                "year": "2024 - Actuellement",
                 "description": "Développement d'Applications : Conception, Développement, Validation. Spécialisation en architecture logicielle et sécurisation des systèmes."
             },
             {
-                "degree": "Baccalauréat Général (Spécialités Maths / NSI)",
-                "school": "Lycée [Votre Lycée]",
-                "year": "2023",
-                "description": "Mention Bien. Projets en Python et découverte des algorithmes."
+                "degree": "Baccalauréat Général (Spécialités Maths / NSI et option Maths experts)",
+                "school": "Lycée monte cristo",
+                "year": "2024",
+                "description": "Mention très bien. Projets en Python et découverte des algorithmes."
             }
         ],
         "vision": "Après mon BUT, je souhaite poursuivre en École d'Ingénieur ou en Master spécialisé en Cybersécurité. Mon objectif à long terme est de devenir Architecte Logiciel ou Expert en Sécurité des Systèmes d'Information, contribuant à des projets critiques et innovants."
@@ -140,7 +140,7 @@
     "socials": {
         "github": "https://github.com/NicolasGirardot",
         "linkedin": "https://linkedin.com/in/nicolas-girardot",
-        "email": "contact@nicolasgirardot.dev",
+        "email": "nicolasgirardot60@gmail.com",
         "cv": "/cv.pdf"
     },
     "ui_config": {
