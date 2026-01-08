@@ -65,6 +65,15 @@ const Hero = () => {
                             >
                                 À PROPOS
                             </Link>
+
+                            <a
+                                href={content.socials.cv}
+                                className="px-8 py-4 border border-primary/20 text-primary hover:bg-primary/10 transition-colors duration-300 font-mono text-sm flex items-center gap-2"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                TÉLÉCHARGER CV
+                            </a>
                         </motion.div>
                     </div>
                 </div>

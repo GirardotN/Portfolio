@@ -17,6 +17,16 @@ const Navbar = () => {
         }
     };
 
+    const handleNavClick = (e, id) => {
+        e.preventDefault();
+        if (isHome) {
+            scrollToSection(id);
+        } else {
+            // Navigate to home with hash
+            window.location.href = `/#${id}`;
+        }
+    };
+
     return (
         <motion.nav
             initial={{ y: -100, opacity: 0 }}
@@ -32,15 +42,9 @@ const Navbar = () => {
                 <div className="hidden md:flex items-center gap-8">
                     <Link to="/about" className="text-sm font-mono text-gray-400 hover:text-primary transition-colors uppercase tracking-wider">À Propos</Link>
 
-                    {isHome ? (
-                        <>
-                            <button onClick={() => scrollToSection('skills')} className="text-sm font-mono text-gray-400 hover:text-primary transition-colors uppercase tracking-wider">Compétences</button>
-                            <button onClick={() => scrollToSection('projects')} className="text-sm font-mono text-gray-400 hover:text-primary transition-colors uppercase tracking-wider">Projets</button>
-                            <button onClick={() => scrollToSection('contact')} className="text-sm font-mono text-gray-400 hover:text-primary transition-colors uppercase tracking-wider">Contact</button>
-                        </>
-                    ) : (
-                        <Link to="/" className="text-sm font-mono text-gray-400 hover:text-primary transition-colors uppercase tracking-wider">Accueil</Link>
-                    )}
+                    <a href="/#skills" onClick={(e) => handleNavClick(e, 'skills')} className="text-sm font-mono text-gray-400 hover:text-primary transition-colors uppercase tracking-wider">Compétences</a>
+                    <a href="/#projects" onClick={(e) => handleNavClick(e, 'projects')} className="text-sm font-mono text-gray-400 hover:text-primary transition-colors uppercase tracking-wider">Projets</a>
+                    <a href="/#contact" onClick={(e) => handleNavClick(e, 'contact')} className="text-sm font-mono text-gray-400 hover:text-primary transition-colors uppercase tracking-wider">Contact</a>
 
                     <div className="h-4 w-px bg-white/10" />
 
