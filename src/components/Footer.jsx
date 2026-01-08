@@ -10,7 +10,7 @@ const Footer = () => {
             <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between gap-6">
 
                 <div className="text-center md:text-left">
-                    <h3 className="text-xl font-bold font-mono text-white mb-2">Nicolas.dev</h3>
+                    <h3 className="text-xl font-bold font-mono text-white mb-2">Portfolio</h3>
                     <p className="text-gray-400 text-sm">
                         © {new Date().getFullYear()} Nicolas Girardot. <br className="md:hidden" />
                         Built with React & Tailwind.
