@@ -1,0 +1,23 @@
+services:
+  portfolio:
+    build: .
+    restart: always
+    container_name: portfolio-app
+
+  caddy:
+    image: caddy:latest
+    restart: always
+    container_name: caddy-proxy
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./Caddyfile:/etc/caddy/Caddyfile
+      - caddy_data:/data
+      - caddy_config:/config
+    depends_on:
+      - portfolio
+
+volumes:
+  caddy_data:
+  caddy_config:
