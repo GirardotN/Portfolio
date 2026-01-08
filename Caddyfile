@@ -1,4 +1,3 @@
-# Remplace 'ton-domaine.com' par ton vrai nom de domaine
-ton-domaine.com {
+:80 {
     reverse_proxy portfolio:80
 }
