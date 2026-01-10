@@ -22,12 +22,12 @@
         ]
     },
     "about": {
-        "biography": "Passionné par l'informatique depuis mon plus jeune âge, j'ai toujours été fasciné par la manière dont le code peut résoudre des problèmes complexes. Mon parcours m'a mené vers le développement backend et l'architecture logicielle, où je trouve un équilibre parfait entre rigueur technique et créativité.",
+        "biography": "J'ai découvert l'informatique au lycée et grâce à mes coours de NSI j'ai directement trouvé une passion dans l'informatique / électronique. J'ai ensuite décidé de suivre un BUT Informatique pour réellement rentrer dans le domaine de l'informatique et commencer ma formation dans ce domaine.",
         "interests": [
-            "Veille Technologique (Sécurité, Cloud)",
-            "Jeux Vidéo & Game Design",
+            "Hardware et robotique",
+            "Jeux Vidéo",
             "Musique (Guitare)",
-            "Contribution Open Source"
+            "Cinéma"
         ],
         "education": [
             {
@@ -50,12 +50,12 @@
             "id": "p2p-auction",
             "title": "Système d'Enchères P2P Sécurisé",
             "description": "Application d'enchères distribuée sans serveur central. Architecture pair-à-pair résiliente avec gestion avancée de la concurrence et de la sécurité des transactions.",
-            "context": "Projet de fin de semestre (SAÉ) réalisé en équipe de 4. L'objectif était de concevoir un système résilient aux pannes serveurs.",
+            "context": "Projet sur un an, réalisé en équipe de 4. L'objectif était de concevoir un système complet et prêt à être utilisé.",
             "learnings": "J'ai appris à gérer la concurrence en Java (Threads, Synchronisation), à implémenter des protocoles de communication réseau (Sockets TCP/UDP) et à sécuriser les échanges (Chiffrement RSA/AES).",
             "tech_stack": [
                 "Java",
-                "Socket Programming",
-                "Cryptography",
+                "Socket java",
+                "Cryptographie",
                 "Multithreading"
             ],
             "highlight": "Architecture Distribuée & Sécurité",
@@ -64,15 +64,15 @@
         },
         {
             "id": "secure-ecommerce",
-            "title": "Plateforme E-commerce Blindée",
-            "description": "Backend e-commerce complet avec focus sur l'intégrité des données et la sécurité. Gestion complexe de base de données et processus de vérification utilisateur rigoureux.",
-            "context": "Projet personnel pour approfondir mes connaissances en sécurité web et en bases de données relationnelles.",
+            "title": "Plateforme E-commerce",
+            "description": "Backend e-commerce complet avec focus sur l'intégrité des données et la sécurité. Gestion complexe de base de données et processus de vérification utilisateur.",
+            "context": "Projet scolaire qui a permis d'approfondir mes connaissances en sécurité web et en bases de données relationnelles.",
             "learnings": "Mise en pratique des principes OWASP pour contrer les injections SQL et XSS. Conception d'un schéma de base de données complexe et optimisé.",
             "tech_stack": [
                 "PHP",
                 "PostgreSQL",
-                "Security Best Practices",
-                "Email Verification"
+                "Sécurité Web",
+                "Verification d'emails"
             ],
             "highlight": "Backend & Gestion de Données",
             "icon": "Database",
@@ -81,18 +81,32 @@
         {
             "id": "minecraft-modding",
             "title": "Modding Minecraft Avancé",
-            "description": "Développement de mods complexes modifiant les mécaniques de jeu. Exploration approfondie de l'API Forge/Fabric et optimisation des performances.",
-            "context": "Participation à une Game Jam (Code Game Jam) sur 48h. Le thème était 'Transformation'.",
-            "learnings": "Travail sous pression temporelle, lecture de documentation technique complexe (API Forge), et optimisation du code pour maintenir un framerate élevé.",
+            "description": "Développement de mods modifiant les mécaniques de jeu. Exploration approfondie de l'API Forge/Fabric et optimisation des performances simples.",
+            "context": "Une envie de ma part d'apprendre d'utiliser mes compétences en Java dans un context de jeux vidéos.",
+            "learnings": "Apprentissage de l'API Forge/Fabric et première mise en forme de mes connaissances.",
             "tech_stack": [
                 "Java",
-                "Forge/Fabric API",
-                "OpenGL",
-                "Game Logic"
+                "API Forge/Fabric",
+                "OpenGL"
             ],
-            "highlight": "Ingénierie Créative & Écosystème Java",
+            "highlight": "Ingénierie & Écosystème Java",
             "icon": "Box",
             "link": "https://github.com/NicolasGirardot/minecraft-mods"
+        },
+        {
+            "id": "robotique-rasberryPi",
+            "title": "Création de robotique",
+            "description": "Création de petit robot / outils avec des rasberryPi. J'ai donc exploré l'électronique et le dévellopement en C avec le kit de base rasberryPi.",
+            "context": "J'avais envie de voir conrétement ce que je peux faire avec de l'informatique en dehors de logiciels ou de sites web.",
+            "learnings": "Apprentissage et révision de l'électronique et du développement en C.",
+            "tech_stack": [
+                "C",
+                "rasberryPi",
+                "Électronique",
+                "Physique"
+            ],
+            "highlight": "Ingénierie mécanique & programmation C",
+            "icon": "Box"
         }
     ],
     "skills": [
@@ -121,9 +135,9 @@
             "title": "Web & Front-end",
             "icon": "Globe",
             "items": [
-                "HTML5 / CSS3",
+                "HTML / CSS",
                 "PHP",
-                "Javascript (Intermédiaire)"
+                "Javascript (débutant)"
             ]
         },
         {

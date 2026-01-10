@@ -33,15 +33,17 @@ const ProjectDetails = () => {
                     <div className="flex flex-col md:flex-row md:items-center justify-between gap-6 mb-8">
                         <h1 className="text-4xl md:text-5xl font-bold">{project.title}</h1>
                         <div className="flex gap-4">
-                            <a
-                                href={project.link}
-                                target="_blank"
-                                rel="noopener noreferrer"
-                                className="flex items-center gap-2 px-4 py-2 bg-white/5 hover:bg-white/10 border border-white/10 rounded-md transition-colors"
-                            >
-                                <Github size={20} />
-                                <span className="hidden md:inline">Voir le code</span>
-                            </a>
+                            {project.link && (
+                                <a
+                                    href={project.link}
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="flex items-center gap-2 px-4 py-2 bg-white/5 hover:bg-white/10 border border-white/10 rounded-md transition-colors"
+                                >
+                                    <Github size={20} />
+                                    <span className="hidden md:inline">Voir le code</span>
+                                </a>
+                            )}
                         </div>
                     </div>
 
